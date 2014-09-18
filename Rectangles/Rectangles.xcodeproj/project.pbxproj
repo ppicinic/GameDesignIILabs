@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F88F929C19CB59A00070DDFC /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = F88F929B19CB59A00070DDFC /* Square.m */; };
 		F8B3434019C21BE90041AF1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B3433F19C21BE90041AF1F /* Foundation.framework */; };
 		F8B3434319C21BE90041AF1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B3434219C21BE90041AF1F /* main.m */; };
 		F8B3434719C21BE90041AF1F /* Rectangles.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8B3434619C21BE90041AF1F /* Rectangles.1 */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F88F929A19CB58A40070DDFC /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		F88F929B19CB59A00070DDFC /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
 		F8B3433C19C21BE90041AF1F /* Rectangles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Rectangles; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B3433F19C21BE90041AF1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8B3434219C21BE90041AF1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				F8B3434219C21BE90041AF1F /* main.m */,
 				F8B3434619C21BE90041AF1F /* Rectangles.1 */,
 				F8B3434419C21BE90041AF1F /* Supporting Files */,
+				F88F929A19CB58A40070DDFC /* Square.h */,
+				F88F929B19CB59A00070DDFC /* Square.m */,
 			);
 			path = Rectangles;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88F929C19CB59A00070DDFC /* Square.m in Sources */,
 				F8B3434319C21BE90041AF1F /* main.m in Sources */,
 				F8B3434F19C21D290041AF1F /* Rectangle.m in Sources */,
 			);
@@ -259,6 +265,7 @@
 				F8B3434C19C21BE90041AF1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

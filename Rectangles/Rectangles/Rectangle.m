@@ -40,7 +40,11 @@
 }
 
 -(void) print {
-    printf( "width = %i, height = %i", width, height);
+    NSLog(@"width = %i, height = %i", width, height);
+}
+
+-(int) area {
+    return width * height;
 }
 
 @end

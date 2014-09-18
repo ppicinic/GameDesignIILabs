@@ -18,5 +18,6 @@
 -(void) setWidth: (int) w height: (int) h;
 -(int) width;
 -(int) height;
+-(int) area;
 -(void) print;
 @end
